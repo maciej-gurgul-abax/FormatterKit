@@ -22,7 +22,7 @@ let package = Package(
         .target(
             name: "FormatterKit",
             path: "Sources/FormatterKit",
-            publicHeadersPath: "",
+            publicHeadersPath: "include",
             cSettings: [
               .headerSearchPath("include"),
             ]),
